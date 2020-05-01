@@ -1,0 +1,216 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - awesome-typescript-loader > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - node-sass > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - webpack-merge > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - webpack > async > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > webpack > async > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - spectron > webdriverio > archiver > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - spectron > webdriverio > inquirer > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-register > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - spectron > webdriverio > archiver > async > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - spectron > webdriverio > gaze > globule > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - spectron > webdriverio > archiver > archiver-utils > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - spectron > webdriverio > archiver > zip-stream > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - spectron > webdriverio > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babel-webpack-plugin > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
+    - babili > babel-cli > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T00:35:49.841Z'
