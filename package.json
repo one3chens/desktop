@@ -29,7 +29,9 @@
     "rebuild-hard:prod": "npm run clean-slate && npm run build:prod",
     "precommit": "lint-staged",
     "prettier:base": "prettier --single-quote --trailing-comma es5 --no-semi --write",
-    "prettify": "npm run prettier:base \"{app/{src,test}/**/*.{ts,tsx,js},app/webpack.*.js,script/!(*.ps1|*.bat|setup-macos-keychain)}\""
+    "prettify": "npm run prettier:base \"{app/{src,test}/**/*.{ts,tsx,js},app/webpack.*.js,script/!(*.ps1|*.bat|setup-macos-keychain)}\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "{app/{src,test}/**/*.{ts,tsx,js},app/webpack.*.js,script/!(*.ps1|*.bat|setup-macos-keychain)}": [
@@ -90,7 +92,8 @@
     "webpack-dev-middleware": "^1.10.1",
     "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0",
-    "xml2js": "^0.4.16"
+    "xml2js": "^0.4.16",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/chai": "^3.4.30",
@@ -115,5 +118,6 @@
     "prettier": "^1.5.0",
     "tslint-config-prettier": "^1.1.0",
     "tslint-react": "^3.0.0"
-  }
+  },
+  "snyk": true
 }
