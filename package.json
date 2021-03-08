@@ -73,7 +73,7 @@
     "mocha": "^3.4.2",
     "node-native-loader": "^1.1.1",
     "node-sass": "^4.5.2",
-    "parallel-webpack": "^1.6.1",
+    "parallel-webpack": "^2.0.0",
     "request": "^2.72.0",
     "rimraf": "^2.5.2",
     "sass-loader": "^6.0.3",
